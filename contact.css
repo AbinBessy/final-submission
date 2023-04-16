@@ -1,0 +1,28 @@
+body{
+    background-color: #080808;
+}
+ nav {
+            text-align: center;
+        }
+        nav a {
+            text-decoration:none;
+            color:#fff;
+            margin:3%;
+            font-size:x-large;
+        }
+h2{
+    color: #fff; text-align: center; font-size: larger;  margin-top: 10%;
+}
+form{
+    text-align: center;
+}
+.footer{ 
+    font-style: italic;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+p{
+    color: #fff;
+}
+

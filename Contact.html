@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+
+    <script>
+        function validateEmail() {
+          var emailField = document.getElementById("email");
+          var email = emailField.value;
+          var atpos = email.indexOf("@");
+          var dotpos = email.lastIndexOf(".");
+          if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
+            alert("Please enter a valid email address");
+            return false;
+          }
+          return true;
+        }
+        </script>
+        
+</head>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a> 
+        <a href="Contact.html">Contact</a>
+        <a href="Hobbies.html">Hobbies</a>
+        <a href="event.html">Event</a>
+    </nav>
+
+<body>
+    <h2 >Contact form</h2>
+    <form onsubmit="return validateEmail();" method="post">
+
+            <input type="radio" name="Yes" id="Yes"><p>:Yes</p>
+            <input type="radio" name="No" id="No"><p>:No</p>
+            <br>
+        <label for="email" style="color: #fff;">Email: </label>
+        <input type="text" id="email" name="email" maxlength="10" tabindex="1"><br><br>
+        <label for="name" style="color: #fff;">Name: </label>
+        <input type="text" id="name" name="name" maxlength="10" tabindex="1"> <br><br>
+        <label for="phNo" style="color: #fff;">Phone No.: </label>
+        <input type="text" id="phNo" name="phone" maxlength="10" tabindex="1"> <br><br>
+        <input type= "submit" type="submit" id="submit" value="Submit">
+    </form>
+    
+    <footer class ="footer">
+		<p>&copy; 2023 Company Name. All rights reserved.</p>
+	</footer>
+</body>

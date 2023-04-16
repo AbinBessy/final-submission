@@ -1,0 +1,30 @@
+body{background-color: #080808;}
+    nav {
+        text-align: center;
+    }
+    nav a {
+        text-decoration:none;
+        color:#fff;
+        margin:3%;
+        font-size:x-large;
+    }
+    header{
+        background-color: #333;
+        font-size: 2rem;
+        padding: 7px;
+    }
+    div{
+        margin-top: 20%;   margin-left: 10%; float: left;
+    }
+    .hi{
+        color: #fff; font-size: 80px; margin-bottom: 0;
+    }
+    .intro{
+        color: #fff; font-size: 80px; margin-top: 0; margin-bottom: 0;
+    }
+    p{
+        color: #fff; font-size: 20px; margin-top: 0; margin-bottom: 0;
+    }
+    .image{
+        float: right; margin-top: 20%;
+    }

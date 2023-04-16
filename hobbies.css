@@ -1,0 +1,20 @@
+body{
+    background-color: #080808;
+}
+        nav {
+             text-align: center;
+            }
+        footer nav a {
+             color:#fff;
+             margin:3%;
+             font-size:x-large;
+         }  
+dl{
+    color: #fff; 
+    font-size: 30px; 
+    margin-bottom: 0%;
+} 
+footer{
+    text-align:center; 
+    font-size:x-large;
+}

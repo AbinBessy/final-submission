@@ -7,19 +7,26 @@
     <title>Contact</title>
     <link rel="stylesheet" href="contact.css">
 
+<div style="text-align: center;">
+    <p>Enter your age:</p>
+    <input type="text" id="age-input">
+    <button onclick="checkAge()">Check Age</button>
+  
     <script>
-        function validateEmail() {
-          var emailField = document.getElementById("email");
-          var email = emailField.value;
-          var atpos = email.indexOf("@");
-          var dotpos = email.lastIndexOf(".");
-          if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
-            alert("Please enter a valid email address");
-            return false;
-          }
-          return true;
+      function checkAge() {
+        var age = document.getElementById("age-input").value;
+  
+        if (age < 18) {
+          alert("Sorry, you are not old enough to access this content.");
+        } else {
+          alert("Welcome! You may access this content.");
         }
-        </script>
+      }
+    </script>
+  </div>
+  <br>
+  <br>
+
         
 </head>
     <nav>
@@ -28,6 +35,7 @@
         <a href="Contact.html">Contact</a>
         <a href="Hobbies.html">Hobbies</a>
         <a href="event.html">Event</a>
+        <a href="PORTFOLIO">Quick Portfolio</a>
     </nav>
 
 <body>
